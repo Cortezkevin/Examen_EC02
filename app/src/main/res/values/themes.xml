@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Examen_Proyecto" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryLight</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Widget.Examen_Proyecto.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.Examen_Proyecto.TextInputLayout.HintText</item>
+        <item name="hintTextColor">@color/colorTextSecondary</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">@color/textInputOutlineColor</item>
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+    </style>
+
+    <style name="TextAppearance.Examen_Proyecto.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="Widget.Examen_Proyecto.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">35dp</item>
+        <item name="android:color">@color/colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Examen_Proyecto.Buttom.Transparent" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">35dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--text-->
+    <style name="TextAppearance.Examen_Proyecto.Title" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!--TOOL BAR-->
+    <style name="Widget.Examen_Proyecto.Toolbar"  parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimaryVariant</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <!--Background configuration - para que no se mueva el fondo-->
+    <style name="Theme.Examen_Proyecto.BackgroundImageStyle">
+        <item name="android:windowBackground">@drawable/login_backgroung_white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Mouse",
+    "url": "https://cdn-icons.flaticon.com/png/512/840/premium/840364.png?token=exp=1638589895~hmac=51b004a2ff107ec2666593cc2b668fc8",
+    "stock": "12 new"
+  },
+  {
+    "name": "AirPods",
+    "url": "https://cdn-icons.flaticon.com/png/512/3977/premium/3977185.png?token=exp=1638566811~hmac=df7b7b40170b8c37ab04aa32b8900901",
+    "stock": "25 new"
+  },
+  {
+    "name": "Keyboards",
+    "url": "https://cdn-icons-png.flaticon.com/512/159/159602.png",
+    "stock": "18 new"
+  },
+  {
+    "name": "Laptops",
+    "url": "https://cdn-icons-png.flaticon.com/512/99/99488.png",
+    "stock": "12 new"
+  },
+  {
+    "name": "Desktop",
+    "url": "https://cdn-icons-png.flaticon.com/512/3076/3076509.png",
+    "stock": "20 new"
+  },
+  {
+    "name": "Headphones",
+    "url": "https://cdn-icons-png.flaticon.com/512/27/27130.png",
+    "stock": "15 new"
+  }
+]

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="27dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="WFH SHOP"
+        />
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everything you need for you home office"
+        android:layout_marginTop="85dp"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:id="@+id/subtitle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Improve you work home experience with our vast selection of amazing tools to help you work like a professional."
+        android:layout_marginTop="215dp"
+        android:textSize="20sp"
+        />
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/explore_button"
+            style="@style/Widget.Examen_Proyecto.Button"
+            android:layout_width="135dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="Explore"
+            android:textAlignment="textStart"
+            app:icon="@drawable/derecho_32"
+            app:iconGravity="end" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/go_login_buttom"
+            style="@style/Widget.Examen_Proyecto.Buttom.Transparent"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toEndOf="@+id/explore_button"
+            android:layout_toRightOf="@+id/explore_button"
+            android:text="or Log in" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="390dp"
+        android:layout_width="320dp"
+        android:layout_height="290dp"
+        android:src="@drawable/image_main"
+        />
+</FrameLayout>

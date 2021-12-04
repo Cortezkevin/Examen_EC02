@@ -1,0 +1,18 @@
+<resources>
+
+
+    <string name="app_name">Examen_Proyecto</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+
+    <!--Drawer layout - menu lateral-->
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="product_name">Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_discount">Discount</string>
+    <string name="category_name">Name</string>
+    <string name="category_stock">Stock</string>
+    <string name="tittle_search_menu">Explore Products</string>
+    <string name="product_mark">Mark</string>
+</resources>

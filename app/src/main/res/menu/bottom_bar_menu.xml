@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/homepage"
+        android:checked="true"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/item_dashboard"
+        android:icon="@drawable/dashboards"
+        android:title="Dashboard"
+        />
+
+    <item
+        android:id="@+id/item_bookmark"
+        android:icon="@drawable/bookmark"
+        android:title="Bookmark"
+        />
+
+    <item
+        android:id="@+id/item_notification"
+        android:icon="@drawable/bell_ring"
+        android:title="Notification"
+        />
+
+    <item
+        android:id="@+id/item_shop"
+        android:icon="@drawable/cartera_para_mujer"
+        android:title="Shop"
+        />
+</menu>
