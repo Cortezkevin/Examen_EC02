@@ -98,7 +98,7 @@
                     android:id="@+id/discount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="On discount"
+                    android:text="@string/on_discount_text"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -142,7 +142,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Categories"
+                android:text="@string/categoires_text"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 

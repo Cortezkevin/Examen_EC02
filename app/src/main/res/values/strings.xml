@@ -2,17 +2,32 @@
 
 
     <string name="app_name">Examen_Proyecto</string>
+
+    <!--login-->
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
 
     <!--Drawer layout - menu lateral-->
     <string name="drawer_open">Open Drawer</string>
     <string name="drawer_close">Close Drawer</string>
+
+    <!--category card-->
     <string name="product_name">Name</string>
+    <string name="category_stock">Stock</string>
+
+    <!--product card-->
+    <string name="product_mark">Mark</string>
     <string name="product_price">Price</string>
     <string name="product_discount">Discount</string>
     <string name="category_name">Name</string>
-    <string name="category_stock">Stock</string>
+
+    <!--Main Activity-->
+    <string name="main_text_title">Everything you need for you home office</string>
+    <string name="app_name_title">WFH SHOP</string>
+    <string name="description_text">Improve you work home experience with our vast selection of amazing tools to help you work like a professional.</string>
+
+    <!--Menu fragment-->
     <string name="tittle_search_menu">Explore Products</string>
-    <string name="product_mark">Mark</string>
+    <string name="on_discount_text">On discount</string>
+    <string name="categoires_text">Categories</string>
 </resources>
